@@ -1,0 +1,121 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and Font Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Light grey background */
+  color: #333; /* Dark text color */
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Header Styling */
+header {
+  background-color: #2e3b4e; /* Dark blue */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.media-links {
+  margin-top: 10px;
+}
+
+.media-link {
+  color: #f0f0f0;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.media-link:hover {
+  text-decoration: underline;
+}
+
+/* Release Information Section */
+.release-info {
+  background-color: #e2e8f0; /* Light blue-grey */
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+}
+
+.release-info h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+/* Game Description Section */
+.game-description {
+  background-color: #f8f9fa; /* Very light grey */
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+}
+
+.game-description h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.game-description ul {
+  margin-left: 20px;
+  list-style-type: disc;
+}
+
+.game-description h3 {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  color: #2e3b4e;
+}
+
+/* Media Section for Screenshots and Videos */
+.media {
+  background-color: #e2e8f0;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+}
+
+.media h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.media ul {
+  margin-left: 20px;
+  list-style-type: none;
+}
+
+.media li {
+  margin-bottom: 10px;
+}
+
+.media a {
+  color: #2e3b4e;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.media a:hover {
+  text-decoration: underline;
+}
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #2e3b4e;
+  color: white;
+  margin-top: 20px;
+}
